@@ -1,0 +1,1 @@
+heres where a bunch of cool ideas will go, that i need to think about.
