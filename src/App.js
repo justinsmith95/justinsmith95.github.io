@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route,
     useHistory,
     Redirect,
     Link,
     AppContext,
 } from "react-router-dom";
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import BlogHeader from './BlogHeader';
 import Blog from './Blog';
 import Contact from './Contact';
@@ -23,33 +24,21 @@ function App() {
  
     return (
         <Router>
-            {/* <AppContext.Provider value={InitialContext}> */}
             <BlogHeader
 
             />
+            <p></p>
 
-            <Switch>
-                <Route path="/Blog">
-                    <Blog
+            <Routes>
+                <Route path="/Blog" element={<Blog />} />
 
-                    />
-                </Route>
+                <Route path="/Projects" element={<Projects />} />
 
-                <Route path="/Projects">
-                    <Projects
-                    />
-                </Route>
-
-                <Route path="/Contact">
-                    <Contact />
-                </Route>
+                <Route path="/Contact" element={<Contact />} />
               
-                <Route path={["/", "/home", "*"]}>
-                   <Splash
-                    />
-                </Route>
-            </Switch>
-            
+               <Route path="/Splash" element={<Splash />} />
+            </Routes>
+
         </Router>
     );
 }

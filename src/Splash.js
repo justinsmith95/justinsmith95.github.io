@@ -13,12 +13,11 @@ export default function Splash() {
 
     return(
 
-        <Container>
-            <Image src="img/Background.jpg" fluid />
+        <Container fluid>
+            <Image className="bg" src="img/Background.jpg" />
             <p>
                 Splash Page here
                 </p>
-
         </Container>
 
 
