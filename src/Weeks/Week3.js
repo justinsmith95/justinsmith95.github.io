@@ -27,6 +27,8 @@ export default function Week1(props) {
       </Button>
             <Collapse in={open}>
                 <div className="Week1">
+                    <Row>
+
                         <Column md={8} xs={8} xl={8} lg={8}>
                           Missed a lot of time due to illness and feeling a bit behind. Struggling somewhat with javascript
                     but slowly learning. Feels like I'm understanding Github moreso than before. I'm curious to see what
@@ -36,7 +38,6 @@ export default function Week1(props) {
                     starting work, and sometimes this probably leads to mistakes that could have been avoided with more
                     pre-planning; so I'm hoping I can hone pseudocoding as a useful skill.
                         </Column>
-                    <Row md={12} xs={12} xl={12} lg={12} >
                         <Column md={4} xs={4} xl={4} lg={4}>
                             <Image fluid src="img/Spirit gun (2).jpg"  alt="..." />
                         </Column>

@@ -12,14 +12,17 @@ import {
 export default function Splash() {
 
     return(
+        <>
+         <div>
 
-        <Container fluid>
-            <Image className="bg" src="img/Background.jpg" />
+
+    </div>
+          
             <p>
                 Splash Page here
                 </p>
-        </Container>
-
+                </>
+        
 
 
 

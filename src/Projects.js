@@ -5,70 +5,75 @@ import {
     Button,
     Container,
     Row,
-    Column,
-    Carousel,
+    Col,
+    Card,
 } from "react-bootstrap"
 import { useHistory } from "react-router-dom"
+import ProjectCard from "./ProjectCard"
 
 
+export default function Projects(props) {
 
 
-
-export default function Projects() {
-
-
+    let projectArrayData = [
+        {
+            projectName: "React Restaurant",
+            projectText: "Restaurant menu (randomized) with API Call",
+            img: "image1",
+            link: "url"
+        },
+        {
+            projectName: "Fishing Hooks",
+            projectText: "API user creation and authentication for a Fishing Store",
+            img: "image2",
+            link: "url"
+        },
+        {
+            projectName: "To-Do List",
+            projectText: "CRUD functions with a To-Do List made with React",
+            img: "image2",
+            link: "url"
+        },
+        {
+            projectName: "SQL Heroes",
+            projectText: "PHP database CRUD functions with superhero facebook-like site",
+            img: "image2",
+            link: "url"
+        },
+        {
+            projectName: "Weather-App",
+            projectText: "API calling to display pertinent weather info in vanilla Javascript",
+            img: "image2",
+            link: "url"
+        },
+        {
+            projectName: "Tic-Tac-Toe",
+            projectText: "Basic Tic-Tac-Toe game generated with vanilla Javascript",
+            img: "image2",
+            link: "url"
+        },
+    ]
 
 
 
 
     return (
 
+
         <Container>
-            <Row height={200}>
+            <Row>
 
-                <Carousel height ={200} width={200}>
-                    <Carousel.Item>
-                        <img height={180}
-                            className="d-block w-100"
-                            src="img/Spirit gun (2).jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className="text-center">
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img height={180}
-                            className="d-block w-100"
-                            src="img/Spirit gun (2).jpg"
-                            alt="Second slide"
-                        />
-
-                        <Carousel.Caption className="text-center">
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img height={180}
-                            className="d-block w-100"
-                            src="img/Spirit gun (2).jpg"
-                            alt="Third slide"
-                        />
-
-                        <Carousel.Caption className="text-center">
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+            {projectArrayData.map((project, index) => {
+                return (
+                    <ProjectCard
+                    cardTitle={project.projectName}
+                    cardText={project.textForProject}
+                    image={project.img}
+                    />
+                    )
+                })
+            }
             </Row>
-
-        "Projects here"
-
-
-
 
         </Container>
     )

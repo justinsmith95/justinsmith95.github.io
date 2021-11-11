@@ -18,26 +18,28 @@ import Projects from './Projects';
 
 
 function App() {
- 
- 
- 
- 
+
+
+
+
     return (
         <Router>
+            <Container fluid style={{backgroundColor: 'lightgrey', height: '1400px', width: '1400px'}}>
             <BlogHeader
 
-            />
-            <p></p>
+                />
 
-            <Routes>
-                <Route path="/Blog" element={<Blog />} />
 
-                <Route path="/Projects" element={<Projects />} />
+                <Routes>
+                    <Route path="/Blog" element={<Blog />} />
 
-                <Route path="/Contact" element={<Contact />} />
-              
-               <Route path="/Splash" element={<Splash />} />
-            </Routes>
+                    <Route path="/Projects" element={<Projects />} />
+
+                    <Route path="/Contact" element={<Contact />} />
+
+                    <Route path="/Splash" element={<Splash />} />
+                </Routes>
+            </Container>
 
         </Router>
     );
