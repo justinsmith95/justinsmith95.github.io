@@ -19,38 +19,32 @@ export default function Projects(props) {
         {
             projectName: "React Restaurant",
             projectText: "Restaurant menu (randomized) with API Call",
-            img: "image1",
-            link: "url"
+            img: "img/React Restaurant.jpg",
+            link: "https://github.com/justinsmith95/restaurant-project"
         },
         {
             projectName: "Fishing Hooks",
             projectText: "API user creation and authentication for a Fishing Store",
-            img: "image2",
-            link: "url"
+            img: "img/Fishing Hooks.jpg",
+            link: "https://github.com/justinsmith95/fishing-hooks"
         },
         {
             projectName: "To-Do List",
             projectText: "CRUD functions with a To-Do List made with React",
-            img: "image2",
-            link: "url"
+            img: "img/To-Do List.png",
+            link: "https://github.com/justinsmith95/to-do-list"
         },
         {
             projectName: "SQL Heroes",
             projectText: "PHP database CRUD functions with superhero facebook-like site",
-            img: "image2",
-            link: "url"
+            img: "img/SQLHeroes.jpg",
+            link: "https://github.com/justinsmith95/SQLHeroes"
         },
         {
             projectName: "Weather-App",
             projectText: "API calling to display pertinent weather info in vanilla Javascript",
-            img: "image2",
-            link: "url"
-        },
-        {
-            projectName: "Tic-Tac-Toe",
-            projectText: "Basic Tic-Tac-Toe game generated with vanilla Javascript",
-            img: "image2",
-            link: "url"
+            img: "img/Weather App.jpg",
+            link: "https://github.com/justinsmith95/Weather-App"
         },
     ]
 
@@ -61,6 +55,7 @@ export default function Projects(props) {
 
 
         <Container>
+            
             <Row>
 
             {projectArrayData.map((project, index) => {

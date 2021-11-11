@@ -27,6 +27,7 @@ export default function Week1(props) {
       </Button>
             <Collapse in={open}>
                 <div className="Week1">
+                    <Row md={12} xs={12} xl={12} lg={12} >
                         <Column md={8} xs={8} xl={8} lg={8}>
                           Very happy to be in person this week! Already a countless number of times I've learned so much just from listening and talking with others in the room and working through problems. 
                           I also really like the warm-up kadas, even though I'm typically struggling with them a bit. 
@@ -38,7 +39,6 @@ export default function Week1(props) {
                           I did get a small taste of classes and I think they will have a wide variety of uses as I become more experienced. 
                           It was extremely satisfying to see the work and frustration finally conclude with something that halfway worked, and I'm looking forward to future projects.
                         </Column>
-                    <Row md={12} xs={12} xl={12} lg={12} >
                         <Column md={4} xs={4} xl={4} lg={4}>
                             <Image fluid src="img/Spirit gun (2).jpg"  alt="..." />
                         </Column>
