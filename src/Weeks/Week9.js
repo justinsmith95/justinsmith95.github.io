@@ -37,7 +37,7 @@ export default function Week1(props) {
                         The snippets also allow for faster coding.
                         </Column>
                         <Column md={4} xs={4} xl={4} lg={4}>
-                            <Image fluid src="img/Spirit gun (2).jpg" alt="..." />
+                            <Image fluid src="img/Week9.png" alt="..." />
                         </Column>
                     </Row>
                 </div>

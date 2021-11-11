@@ -39,7 +39,7 @@ export default function Week1(props) {
                     pre-planning; so I'm hoping I can hone pseudocoding as a useful skill.
                         </Column>
                         <Column md={4} xs={4} xl={4} lg={4}>
-                            <Image fluid src="img/Spirit gun (2).jpg"  alt="..." />
+                            <Image fluid src="img/Week3.jpg"  alt="..." />
                         </Column>
                     </Row>
                 </div>

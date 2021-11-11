@@ -29,7 +29,7 @@ export default function Week1(props) {
                 <div className="Week1">
                     <Row md={12} xs={12} xl={12} lg={12} >
                         <Column md={4} xs={4} xl={4} lg={4}>
-                            <Image fluid src="img/Spirit gun (2).jpg"  alt="..." />
+                            <Image fluid src="img/Week2.jpg"  alt="..." />
                         </Column>
                         <Column md={8} xs={8} xl={8} lg={8}>
                           This week I've been learning a lot about HTML and CSS, their purposes and how they interact with

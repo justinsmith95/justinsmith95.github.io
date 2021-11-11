@@ -40,7 +40,7 @@ export default function Week1(props) {
                           It was extremely satisfying to see the work and frustration finally conclude with something that halfway worked, and I'm looking forward to future projects.
                         </Column>
                         <Column md={4} xs={4} xl={4} lg={4}>
-                            <Image fluid src="img/Spirit gun (2).jpg"  alt="..." />
+                            <Image fluid src="img/Week5.jpg"  alt="..." />
                         </Column>
                     </Row>
                 </div>
