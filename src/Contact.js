@@ -25,7 +25,7 @@ export default function Contact() {
             <Row className="mt-5">
                 <Col className="col-3"></Col>
                 <Col className="col-6">
-                    <Image src="img/License.jpeg" className="h-80" fluid roundedCircle />
+                    <Image src="img/justin-smith.jpg" className="h-80" fluid roundedCircle />
                 </Col>
                 <Col className="col-3"></Col>
             </Row>
@@ -53,66 +53,6 @@ export default function Contact() {
                                 Other than web-development, my hobbies and interests include spending time with friends, watching way too many movies, playing tennis, playing trivia, and most importantly, video games.
                            </p>
                             <p className="text-center">  Talk to me about your favorite movies or games!</p>
-                        </Row>
-                    </div>
-                </Collapse>
-            </Row>
-            <Row>
-                <Button
-                    className="text-center"
-                    onClick={() => setOpen(!open)}
-                    aria-controls="ContactMe"
-                    aria-expanded={open}
-                >Contact Me
-      </Button>
-                <Collapse in={open}>
-                    <div className="ContactMe">
-                        <Row md={12} xs={12} xl={12} lg={12} >
-                            <Col lg="5" className="lg-0 mb-4">
-                                <Card>
-                                    <Card.Body>
-                                        <div className="form-header blue accent-1">
-                                            <h3 className="mt-2">
-                                                Write to me:
-                                                    </h3>
-                                        </div>
-                                        <div className="md-form">
-                                            <Form
-                                                label="Your name"
-                                                type="text"
-                                                id="form-name"
-                                            />
-                                        </div>
-                                        <div className="md-form">
-                                            <Form
-                                                label="Your email"
-                                                type="text"
-                                                id="form-email"
-                                            />
-                                        </div>
-                                        <div className="md-form">
-                                            <Form
-
-                                                label="Subject"
-
-                                                type="text"
-                                                id="form-subject"
-                                            />
-                                        </div>
-                                        <div className="md-form">
-                                            <Form
-
-
-                                                type="textarea"
-                                                id="form-text"
-                                            />
-                                        </div>
-                                        <div className="text-center">
-                                            <Button color="light-blue">Submit</Button>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
                         </Row>
                     </div>
                 </Collapse>

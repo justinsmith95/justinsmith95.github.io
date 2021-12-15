@@ -17,6 +17,12 @@ export default function Projects(props) {
 
     let projectArrayData = [
         {
+            projectName: "Trade Tracker",
+            projectText: "Full-stack project with account creation/log-in to search and view stock data as candlestick charts",
+            img: "img/trade-tracker.png",
+            link: "https://github.com/justinsmith95/trading-project"
+        },
+        {
             projectName: "React Restaurant",
             projectText: "Restaurant menu (randomized) with API Call",
             img: "img/React Restaurant.jpg",
@@ -45,7 +51,8 @@ export default function Projects(props) {
             projectText: "API calling to display pertinent weather info in vanilla Javascript",
             img: "img/Weather App.jpg",
             link: "https://github.com/justinsmith95/Weather-App"
-        },
+        }
+        
     ]
 
 
